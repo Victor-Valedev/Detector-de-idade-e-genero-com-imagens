@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(22, 44, 31);
+    font: normal 15pt Arial;
+    color: black;
+}
+
+header{
+    text-align: center;
+
+}
+
+section{
+    background-color: white;
+    border-radius: 10px;
+    /*box-shadow -->  sombra*/
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.568);
+    /*padding --> aumenta o tamanho da section ou div*/
+    padding: 50px;
+    /*width --> largura,  500px divide a tela*/
+    width: 500px;
+    /*margin auto, centraliza!*/
+    margin: auto;
+    
+
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    color: white;
+
+}
+
+h1{
+    color: white;
+}
+
+div{
+    text-align: center;
+    padding: 7px;
+}
+
+#button{
+    background-color: rgb(88, 225, 136);
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.486) ;
+    cursor: pointer;
+}
+
+#button:hover{
+    transform: scale(1.2);
+    transition: all 0.5s;
+} 
